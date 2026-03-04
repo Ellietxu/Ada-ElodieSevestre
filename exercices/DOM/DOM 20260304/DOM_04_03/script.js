@@ -66,9 +66,6 @@ console.log("start");
 
 function addElementItemList() {
   const addElementItem = document.createElement("li");
-  addElementItem.innerHTML = `
-        <input type="checkbox" class="item-check" /><label
-          >Nouvel Item</label
-        >`;
+  addElementItem.innerHTML = `<input type="checkbox" class="item-check" /><label>Nouvel Item</label>`;
   list.appendChild(addElementItem);
 }
